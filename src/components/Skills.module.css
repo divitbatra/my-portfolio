@@ -1,0 +1,29 @@
+.list {
+    max-width:600px;
+    margin:40px auto 0;
+  }
+  
+  .skillItem {
+    margin-bottom:20px;
+  }
+  
+  .skillItem p {
+    font-weight:600;
+    margin-bottom:5px;
+  }
+  
+  .bar {
+    background:#ddd;
+    border-radius:4px;
+    height:10px;
+    overflow:hidden;
+    position:relative;
+  }
+  
+  .bar span {
+    display:block;
+    height:100%;
+    background:var(--primary-color);
+    transition:width 1s ease;
+  }
+      

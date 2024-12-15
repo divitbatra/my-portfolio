@@ -1,0 +1,23 @@
+.aboutContent {
+    display:flex;
+    gap:40px;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top:40px;
+  }
+  
+  .aboutText, .aboutImage {
+    flex:1 1 300px;
+  }
+  
+  .aboutText p {
+    margin-bottom:20px;
+  }
+  
+  .aboutImage img {
+    border-radius:8px;
+    width:100%;
+    height:auto;
+  }
+  
