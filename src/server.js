@@ -10,6 +10,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+app.listen(8080, '0.0.0.0', () => {
+  console.log('Server is running on port 8080');
 });
